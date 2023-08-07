@@ -9,5 +9,20 @@ package prueba.git.uno;
  * @author charl
  */
 public class Charly {
+    private String nombre;
+
+    public Charly(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    
+    
     
 }
