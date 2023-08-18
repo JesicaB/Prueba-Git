@@ -5,10 +5,17 @@
  */
 package prueba.git.uno;
 
-/**
- *
- * @author pecky
- */
-public class Amelia {
+public class Amelia{
+private int edad;
     
+    public Amelia(int edad){
+        this.edad = edad;
+    }
+    
+    public void setEdad(int edad){
+        this.edad = edad;
+    }
+    public int getEdad(){
+        return this.edad;
+    }
 }
